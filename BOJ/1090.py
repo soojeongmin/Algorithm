@@ -4,6 +4,7 @@ arr_x = []
 arr_y = []
 
 ans = [-1]*n
+
 for _ in range(n):
     a, b = map(int, input().split())
     arr.append([a,b])
