@@ -1,7 +1,6 @@
 k = int(input())
 arr = []
 d = 2
-
 while d * d <= k:
     while k % d == 0:
         arr.append(d)
